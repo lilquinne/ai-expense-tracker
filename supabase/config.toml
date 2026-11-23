@@ -1,0 +1,7 @@
+[functions.extract-receipt]
+# The handler verifies the user's JWT with Supabase Auth before any paid call.
+# This supports projects using asymmetric signing keys as well as legacy JWTs.
+verify_jwt = false
+
+[functions.spending-coach]
+verify_jwt = true
